@@ -1,0 +1,23 @@
+html, body {
+    background: #fff;
+}
+
+div.container {
+    background: #fff;
+    filter: drop-shadow(0 2px 2px #aaa);
+}
+
+#sentence {
+    color: #000;
+}
+
+#sentence::selection{background: #7db9de;}
+
+div.footer {
+    background: #fff;
+}
+
+div.footer a.about {
+    color: #7db9de;
+    text-decoration: none;
+}

@@ -1,0 +1,18 @@
+html, body {
+    background: #121212;
+}
+
+div.container {
+    background: #121212;
+    filter: drop-shadow(0 2px 2px #000);
+}
+
+#sentence {
+    color: #fff;
+}
+
+#sentence::selection{background: #d05a6e;}
+
+div.footer {
+    background: #121212;
+}

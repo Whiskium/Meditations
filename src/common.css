@@ -1,0 +1,68 @@
+@font-face {
+    font-family: FZYBKSK;
+    src: url('https://cdn.jsdelivr.net/gh/ryanwu-gh/Meditations/src/fonts/FZYBKSK.ttf');
+}
+
+@keyframes fadeIn {
+    0% { 
+        opacity: 0;
+        transform: translateY(25px);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+div.container {
+    min-height: 80vh;
+    padding: 10vh 10vw;
+}
+
+div.content {
+    position: absolute;
+        top: 50%;
+        left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#sentence {
+    animation: fadeIn 2s;
+    animation-fill-mode: backwards;
+    font-family: "Times New Roman", FZYBKSK;
+    font-size: 2em;
+    line-height: 1.5em;
+    margin: 50px auto;
+    text-align: justify;
+    text-indent: 2em;
+    user-select: text;
+}
+
+#source,
+#author {
+    animation: fadeIn 1s;
+    animation-fill-mode: backwards;
+    color: #aaa;
+    font-size: 1em;
+    text-align: center;
+}
+
+#sentence {animation-delay: .5s;}
+#source {animation-delay: 2s;}
+#author {animation-delay: 2.2s;}
+
+div.footer {
+    padding: 12px 0;
+    text-align: center;
+}
+
+div.footer p {
+    color: #aaa;
+    font-size: .8em;
+    margin: 0;
+}
