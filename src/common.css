@@ -28,6 +28,7 @@ div.content {
     position: absolute;
         top: 50%;
         left: 50%;
+    text-align: center;
     transform: translate(-50%, -50%);
     width: 90vw;
 }
@@ -35,6 +36,7 @@ div.content {
 #sentence {
     animation: fadeIn 2s;
     animation-fill-mode: backwards;
+    display: inline-block;
     font-family: "Times New Roman", FZYBKSK;
     font-size: 2em;
     line-height: 1.5em;
